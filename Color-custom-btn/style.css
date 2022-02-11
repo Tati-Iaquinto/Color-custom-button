@@ -1,0 +1,19 @@
+*{
+  font-family: sans-serif;
+}
+label{
+  height: 40px;
+  width: 150px;
+  padding: 5px;
+  background-color: lightgray;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+#hex, #rgb{
+  display: none;
+}
